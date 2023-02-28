@@ -1,6 +1,6 @@
 ## Step 4 (*ssh* into ieng6)
 
-[Step4](Step4.png)
+![Step4](Step4.png)
 ```
 <up><enter>
 ```
@@ -9,7 +9,7 @@
 
 ## Step 5 (Cloning fork)
 
-[Step5](Step5.png)
+![Step5](Step5.png)
 ```
 <command><c> (Copied fork link)
 <command><v> (Pasted fork link)
@@ -21,7 +21,7 @@ git clone git@github.com:BDL1001/lab7.git
 
 ## Step 6 (Run Tests)
 
-[Step6](Step5.png)
+![Step6](Step5.png)
 ```
 cd l
 <tab>
@@ -39,7 +39,8 @@ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnit
 
 ## Step 7 (Edit code)
 
-[Step7](Step7.png)
+![Step7](Step7.png)
+![Step7vim](step7vim.png)
 ```
 vim L
 <tab>
@@ -51,7 +52,7 @@ vim ListExamples.java
 
 ## Step 8 (Run tests after edit)
 
-[Step8](Step8.png)
+![Step8](Step8.png)
 ```
 <up><up><up>
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
@@ -65,7 +66,7 @@ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnit
 
 ## Step 9 (Commit and push changes)
 
-[Step9](Step9.png)
+![Step9](Step9.png)
 ```
 git add L
 <tab>
